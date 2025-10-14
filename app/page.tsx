@@ -68,10 +68,10 @@ export default function Home() {
         setNotification('Points increased successfully')
         setTimeout(() => setNotification(''), 3000)
       } else {
-        setError('failed to increase points')
+        setError('sajjad')
       }
       } catch (err ) {
-      setError('failed to increase points')
+      setError('mohamad')
     }
   }
 
