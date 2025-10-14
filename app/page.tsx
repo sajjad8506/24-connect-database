@@ -60,7 +60,7 @@ export default function Home() {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ telegramId: user.telegramId }),
+        body: JSON.stringify({ telegramId:'123456789' }),
       })
       const data = await res.json()
       if(data.success) {
