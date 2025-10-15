@@ -17,6 +17,6 @@ export async function POST(req: NextRequest) {
         return NextResponse.json({ success: true, points: updatedUser.points })
     } catch (error) {
         console.error('Error increasing points:', error)
-        return NextResponse.json({ error  }, { status: 500 })
+        return NextResponse.json({'server error'}, { status: 500 })
     }
 }
